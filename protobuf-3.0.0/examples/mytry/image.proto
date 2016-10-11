@@ -1,0 +1,5 @@
+package tutorial;
+
+message Image {
+	required bytes contents = 1;
+}

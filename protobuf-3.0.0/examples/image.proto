@@ -1,0 +1,7 @@
+syntax = "proto3";
+package tutorial;
+
+message Image {
+	 bytes contents = 1;
+	 string name = 2;
+}
